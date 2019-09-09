@@ -15,22 +15,20 @@ const makeFormAppear = (e) => {
 
 document.getElementById('jumbo-button').addEventListener('click', makeFormAppear)
 
+let domString = '';
+
 const sortStudentAndClear = (e) => {
     if (e.target.id === 'sort') {
     let studentHouse = hogHouses[Math.floor(Math.random() * hogHouses.length)];
-    let domString = '<div class="row">';
-    let studentName = document.getElementById('name-input').innerText
+    let studentName = document.getElementById('name-input').value
     domString += `
-        <div class="col-3">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">${studentName}</h5>
                     <p class="card-house">${studentHouse}</p>
                     <button type="button" class="btn btn-danger">Expel</button>
                 </div>
-            </div>
-        </div>
-    </div>`;
+            </div>`
 
     printToDom('students-container', domString)
     }

@@ -1,4 +1,31 @@
 body {
     background-color: darkslategray;
 }
-#form {display: none;}
+#form {display: none;
+    width: 100%;
+    align-self: center;
+}
+
+#form-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    margin: 1em;
+}
+
+#students-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.card {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%
+}
+
+.card-body {
+    width: 100%;
+}
