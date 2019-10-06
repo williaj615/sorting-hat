@@ -4,9 +4,9 @@
 Use this application to enter a student's name and sort them into a Hogwarts house. Use the expel button to remove a student from the school record.
 
 ## Screenshots
-![Sorting Hat Preview](screenshots/main_view.png
+![Sorting Hat Preview](https://raw.githubusercontent.com/williaj615/sorting-hat/master/screenshots/main_view.png
 )
-![Sorted Students Preview](screenshots/sortview.png ) 
+![Sorted Students Preview](https://raw.githubusercontent.com/williaj615/sorting-hat/master/screenshots/sort_view.png ) 
 
 ## How to run
 * Clone down this project.
